@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: royalblue;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.input-container {
+  margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 310px;
+  position: relative;
+}
+
+input {
+  width: 310px;
+  height: 45px;
+  text-indent: 10px;
+  border-radius: 30px;
+  border: 2px solid gray;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input-container .fa-magnifying-glass {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  font-size: 18px;
+}
+
+#users {
+  margin-top: 4rem;
+
+  margin-bottom: 4rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+}
